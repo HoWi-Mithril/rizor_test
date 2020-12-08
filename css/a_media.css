@@ -1,0 +1,101 @@
+/* main page range 1920 and bigger*/
+@media (max-width: 1920px) {   /* For range min 1440 and max 1920 */
+    body {
+        width: 1440px;
+    }
+    .banner, .benefits_modes, .audience_container_text {
+        margin-left: 136.5px;
+    }
+    .wrapper_play_tab {
+        left: 332px;
+    }
+
+    .flex_container {
+        padding-right: 50px;
+    }
+    .benefits_design {
+        margin: 0;
+    }
+    .benefits_design_container_img {
+        flex-shrink: 1;
+        height: 85vh;
+    }
+    .benefits_design_container_text {
+        padding-left: 10px;
+    }
+    .benefits_colors {
+        margin-top: 0;
+        padding-top: 203px;
+    }
+    .benefits_logo_4rizor {
+        display: none;
+    }
+    .modes_play_tab {
+        left: 194px;
+    }
+    .benefits_modes_numbers {
+        margin-top:147px;
+    }
+
+}
+
+
+@media (max-width: 1024px) { /* For range min ... and max 1024 */
+    body {
+        width: 768px;
+    }
+    #aside_navigation, .benefits_logo_4rizor, .audience_image_print_svg {
+        display: none;
+    }
+    .header {
+        padding: 0 10px;
+    }
+    .banner, .benefits_modes, .audience_container_text {
+        margin-left: 20px;
+    }
+    .wrapper_play_tab {
+        left: 75%;
+        top: 85%;
+    }
+
+    .flex_container {
+        flex-direction: column;
+    }
+    .benefits_design_container_img {
+        width:45%;
+        height: 85vh;
+        flex-shrink: 1;}
+    .benefits_design_container_text {
+        padding: 0 0 0 20px;
+        align-self: center;
+    }
+
+    .benefits_colors {
+        height: 85vh;
+        padding-top: 10vh;
+        margin: 0 auto;
+    }
+
+    .benefits_modes  {
+        width: 70vw;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .wrapper_modes {
+        margin-top: 50px;
+    }
+    .modes_play_tab {
+        left: 50%;
+    }
+    .benefits_modes_numbers {
+        margin-top: 10vh;
+    }
+    .audience_container_text {
+        z-index: 2;
+    }
+    .audience_container_images {
+        margin-left: -40%;
+        z-index: 0;
+    }
+
+}

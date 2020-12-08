@@ -1,0 +1,44 @@
+
+.header {
+    max-width: 1167px;
+    margin: 30px auto 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header_nav_list {
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+}
+.header_nav_list li+li {
+    margin-left: 70px;
+
+}
+.header_nav_list a {
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+/* CSS Animation */
+.header_nav_list a {
+    color: black;
+    position: relative;
+  }
+.header_nav_list  a:after {    
+    content: "";
+    display: block;
+    bottom: -10%;
+    height: 2px;
+    position: absolute;
+    transition: width 0.3s ease 0s, right 0.3s ease 0s;
+    width: 0;
+    background: #3A30F8;;
+    right: 100%;
+    width: 0;
+  }
+.header_nav_list a:hover:after {
+    width: 100%;
+    right: 0; 
+  }

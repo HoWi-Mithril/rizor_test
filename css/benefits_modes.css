@@ -1,0 +1,86 @@
+.wrapper_modes{
+    margin-top: 200px;
+    min-height: 878px;
+    background: url(/images/third_img_modes.png) right center, url(/images/banner_half_logo.png) left center;
+    background-repeat: no-repeat;
+    border: 1px solid transparent;
+}
+
+.benefits_modes {
+    position: relative;
+    margin: 154px 0 0 375px;
+
+}
+
+.benefits_modes_descripton {
+    max-width: 366px;
+}
+
+/* Numbers */
+.benefits_modes_numbers {
+    margin-top: 87px;
+    display: flex;
+}
+
+.benefits_modes_numbers > div {
+    margin-right: 74px;
+}
+
+.benefits_modes_numbers_num span {
+    font-size: 60px;
+}
+
+.benefits_modes_numbers_num {
+    color:#3A30F8;
+}
+
+.benefits_modes_numbers_desc {
+    margin-top: 10px;
+    line-height: 1.667;
+}
+
+/* Button play */
+.modes_play_tab {
+    position: absolute;
+    bottom: 0px;
+    left: 450px;
+
+    -moz-transform: translateY(100%);
+    -webkit-transform: translateY(100%);
+    -ms-transform: translateY(100%);
+    transform: translateY(100%);
+}
+
+
+/* Global styles */
+.benefits_subtitle {
+    font-size: 40px;
+}
+.benefits_description {
+    font-size: 18px;
+    line-height: 1.667;
+    margin-top: 40px;
+}
+.benefits_list {
+    font-size: 18px;
+    line-height: 1.667;
+}
+.benefits_description b {
+    font-weight: bold;
+}
+
+.benefits_list li {
+    margin-top: 20px;
+    margin-left: 40px;
+}
+.benefits_list li::before {
+    content: "";
+    display: inline-block;
+    margin-left: -40px;
+    margin-right: 10px;
+    width: 30px;
+    border-top: 5px solid black;
+    border-bottom: 2px solid transparent;
+}
+
+

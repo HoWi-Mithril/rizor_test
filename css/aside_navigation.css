@@ -1,0 +1,50 @@
+#aside_navigation {
+position: absolute;
+top: 0;
+right: 0;
+z-index: 100;
+}
+
+#aside_navigation nav {
+position: fixed;
+top: 50%;
+transform: translate(-160%, -50%);
+}
+
+#aside_navigation a {
+display: block;
+width: 5px;
+height: 5px;
+margin: 20px 0;
+background: none;
+border-radius: 50%;
+outline: 3px solid transparent;
+border: 2px solid #3A30F8;
+}
+
+#aside_navigation a:hover {
+    border-color: #221c8d;
+}
+
+#aside_navigation nav::before {
+    content: "";
+    position: absolute;
+    top:0;
+    left:50%;
+    width: 0;
+    height: 200%;
+    max-height: 500px;
+    border-left: 2px solid #3A30F8;
+    transform: translate(-50%, -105%);
+}
+#aside_navigation nav::after {
+    content: "";
+    position: absolute;
+    bottom:0;
+    left:50%;
+    width: 0;
+    height: 200%;
+    max-height: 500px;
+    border-left: 2px solid #3A30F8;
+    transform: translate(-50%, 105%);
+}

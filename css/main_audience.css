@@ -1,0 +1,80 @@
+.audience {
+  display: flex;
+  margin-top: 181px;
+  height: 790px;
+  background: url(/images/bg_for_whom.png);
+  z-index: -10;
+}
+
+.audience_container_text {
+  max-width: 337px;
+  margin: 100px 31px 0 375px;
+ 
+  font-size: 20px;
+  font-family: "Roboto";
+  color: white;
+  line-height: 1.1;
+}
+
+.audience_title {
+  text-transform: uppercase;
+  margin-bottom: 100px;
+  font-weight: bold;
+}
+.audience_description b {
+  font-weight: bold;
+}
+.audience_description.second {
+  margin-top: 60px;
+}
+
+
+
+.audience_button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+
+  color: rgb( 58, 48, 248 );
+  background-color: white;
+  box-shadow: 2.5px 4.33px 5px 0px rgb( 0, 0, 1 );
+  font-size: 16px;
+  font-weight: bold;
+  text-transform: uppercase;
+  border-radius: 50px;
+  width: 270px;
+  height: 50px;
+  transition: 0.3s;
+}
+.audience_button:hover {
+  transform: scale(1.2);
+}
+/* Sec for Whom - Images */
+.audience_container_images {
+  position: relative;
+  background: url(/images/forth_for_whom.png) left center;
+  top:-60px;
+  width:1180px;
+  height: 750px;
+}
+
+.audience_image_blue {
+  position: absolute;
+  width:100%;
+  top:0;
+  left:0;
+  opacity: 0.2;
+}
+
+.audience_image_print_svg {
+  position: absolute;
+  left: 240px;
+  bottom: 80px;
+
+  opacity: 0.5;
+  -moz-transform: matrix( 3,0,0,2.3,0,0);
+  -webkit-transform: matrix( 3,0,0,2.3,0,0);
+  -ms-transform: matrix( 3,0,0,2.3,0,0);
+  transform: matrix(3,0,0,2.3,0,0);
+}

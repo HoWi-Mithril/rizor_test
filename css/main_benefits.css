@@ -1,0 +1,120 @@
+.flex_container {
+    margin-top: 107px;
+    display: flex;
+    position: relative;
+}
+.benefits_design {
+    max-width: 1113px;
+    display: flex;
+    margin-right: 56px;
+}
+
+.benefits_design_container_img {
+    position: relative;
+    width: 745px;
+    height: 750px;
+    background: url(/images/second_img.png) center;
+    flex-shrink: 0;
+}
+.design_img_circle {
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    cursor: pointer;
+    background-color: #FFFFFF;
+    opacity: 0.8;
+    transition: 0.5s;
+}
+.design_img_circle:hover {
+    opacity: 1;
+}
+.design_img_circle img {
+    position: absolute;
+    display: block;
+    top:50%;
+    left:50%;
+    transform: translate(-36%,-45%);
+    width: 40px;
+    height: 45px;
+}
+
+
+/* benefits Design  text side */
+.benefits_design_container_text {
+    padding-left: 100px;
+    padding-top: 100px;
+}
+.benefits_design_title {
+    font-size: 20px;
+    color:#3A30F8;
+}
+.benefits_design_subtitle {
+    margin-top: 83px;
+}
+
+/*  Colors */
+.benefits_colors {
+    display: inline-block;
+    max-width: 376px;
+    height: 531px;
+    margin-top: 469px;
+}
+.benefits_colors_container {
+    margin-left:100px;
+}
+
+/* Color points */
+.benefits_colors_points {
+    margin-top: 61px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.benefits_colors_points li {
+    display: inline-block;
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.benefits_colors_points li:hover {
+    transform: scale(2.5);
+}
+.benefits_colors_points li:nth-child(1) {
+    background-color: #E2E837;
+}
+.benefits_colors_points li:nth-child(2) {
+    background-color: #00B6F1;
+}
+.benefits_colors_points li:nth-child(3) {
+    background-color: #E23232;
+}
+.benefits_colors_points li:nth-child(4) {
+    background-color: #F0EFEF;
+}
+.benefits_colors_points li:nth-child(5) {
+    background-color: #0C0C0C;
+}
+
+.benefits_colors img  {
+    margin-top: 32px;
+}
+
+.benefits_logo_4rizor {
+    position: absolute;
+    width: 700px;
+    height: 292px;
+    right: 0;
+    top:0;
+    opacity: 0.2;
+    z-index: -1;
+    transform: matrix(0,-1,1,0,0,0) translate(-100px,50%);
+    -moz-transform: matrix(0,-1,1,0,0,0) translate(-100px,50%);
+    -webkit-transform: matrix(0,-1,1,0,0,0) translate(-100px,50%);
+    -ms-transform: matrix(0,-1,1,0,0,0) translate(-100px,50%);
+}

@@ -1,0 +1,14 @@
+body {
+    width: 1920px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.font_Roboto {
+    font-family: "Roboto",sans-serif;
+    font-weight: normal;
+}
+.font_Rubik {
+    font-family: "Rubik Mono One", sans-serif;
+    font-weight: normal;
+}

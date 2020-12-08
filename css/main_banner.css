@@ -1,0 +1,63 @@
+.wrapper_banner{
+    position: relative;
+    height: 100vh;
+    max-height: 915px;
+
+    background: url(/images/first_img.png) right 70px, url(/images/banner_half_logo.png) left center;
+    background-repeat: no-repeat;
+}
+
+.banner {
+    width: 655px;
+    margin: 234px 0 0 375px;
+    font-size: 20px;
+}
+.banner_title {
+    font-size: 80px;
+    letter-spacing: 6px;
+}
+.banner_description {
+    text-transform: uppercase;
+    max-width: 350px;
+    margin-top: 50px;
+    font-size: 20px;
+    font-weight: bold;
+    will-change: scroll-position;
+}
+.banner_arrov-down {
+    margin: 42px 0 0 30px;
+}
+
+/* Play tab */
+.wrapper_play_tab {
+    position: absolute;
+    left: 812px;
+    top: 175px;
+}
+
+.play_tab_text {
+    width: 70px;
+    position: absolute;
+    left: -70%;
+    top: 20%;
+    display: block;
+
+    line-height: 1.2;
+    letter-spacing: 0.7px;
+    font-size: 12px;
+    font-weight: bold;
+    text-transform: uppercase;
+
+    -moz-transform: matrix( 0,-1,1,0,0,0);
+    -webkit-transform: matrix( 0,-1,1,0,0,0);
+    -ms-transform: matrix( 0,-1,1,0,0,0);
+    transform: matrix( 0,-1,1,0,0,0);
+}
+
+/* Animation Hover*/
+.play_tab svg, .banner_arrov-down img {
+    transition: 0.5s;
+}
+.play_tab svg:hover, .banner_arrov-down img:hover {
+    transform: scale(1.3);
+}
