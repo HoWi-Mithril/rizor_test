@@ -2,7 +2,7 @@
   display: flex;
   margin-top: 181px;
   height: 790px;
-  background: url(/images/bg_for_whom.png);
+  background: url(../images/bg_for_whom.png);
   z-index: -10;
 }
 
@@ -53,7 +53,7 @@
 /* Sec for Whom - Images */
 .audience_container_images {
   position: relative;
-  background: url(/images/forth_for_whom.png) left center;
+  background: url(../images/forth_for_whom.png) left center;
   top:-60px;
   width:1180px;
   height: 750px;

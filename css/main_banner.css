@@ -3,7 +3,7 @@
     height: 100vh;
     max-height: 915px;
 
-    background: url(/images/first_img.png) right 70px, url(/images/banner_half_logo.png) left center;
+    background: url(../images/first_img.png) right 70px, url(../images/banner_half_logo.png) left center;
     background-repeat: no-repeat;
 }
 

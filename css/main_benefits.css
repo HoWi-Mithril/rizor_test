@@ -13,7 +13,7 @@
     position: relative;
     width: 745px;
     height: 750px;
-    background: url(/images/second_img.png) center;
+    background: url(../images/second_img.png) center;
     flex-shrink: 0;
 }
 .design_img_circle {

@@ -1,7 +1,7 @@
 .wrapper_modes{
     margin-top: 200px;
     min-height: 878px;
-    background: url(/images/third_img_modes.png) right center, url(/images/banner_half_logo.png) left center;
+    background: url(../images/third_img_modes.png) right center, url(../images/banner_half_logo.png) left center;
     background-repeat: no-repeat;
     border: 1px solid transparent;
 }
