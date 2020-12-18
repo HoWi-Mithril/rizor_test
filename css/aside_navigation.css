@@ -1,8 +1,14 @@
 #aside_navigation {
 position: absolute;
 top: 0;
-right: 0;
+right: -2%;
 z-index: 100;
+opacity: 0.5;
+transition: 0.5s;
+}
+
+#aside_navigation:hover {
+    opacity: 1;
 }
 
 #aside_navigation nav {
@@ -13,8 +19,8 @@ transform: translate(-160%, -50%);
 
 #aside_navigation a {
 display: block;
-width: 5px;
-height: 5px;
+width: 3px;
+height: 3px;
 margin: 20px 0;
 background: none;
 border-radius: 50%;
@@ -24,6 +30,7 @@ border: 2px solid #3A30F8;
 
 #aside_navigation a:hover {
     border-color: #221c8d;
+    opacity: 1;
 }
 
 #aside_navigation nav::before {

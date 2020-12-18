@@ -53,7 +53,7 @@
 /* Sec for Whom - Images */
 .audience_container_images {
   position: relative;
-  background: url(../images/forth_for_whom.png) left center;
+  background: url(../images/forth_for_whom.png) left center no-repeat;
   top:-60px;
   width:1180px;
   height: 750px;
